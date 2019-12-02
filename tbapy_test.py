@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Oct 27 16:45:45 2019
+This file tests the tbapy library
 
 @author: Ujjaini Das
 """

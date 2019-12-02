@@ -12,8 +12,6 @@ from pandas import DataFrame
 from oct2py import Oct2Py
 oc = Oct2Py()
 
-print(oc.abs(-1))
-
 tba = tbapy.TBA("MtsQ8UR2BsMQ03giTxFXqNbP61OyHF1Sy9VNNKbK8UjtBfr8NQfYF7Gbs7XrDkoA")
 
 event_list = tba.events('2019', keys = True)
@@ -67,5 +65,5 @@ df = df.drop('extra_stats', axis = 1)
     
 
 
-df.to_csv(r'C:\Users\thisi\Desktop\Machine Learning\game-strategy\2019data.csv')
+#df.to_csv(r'C:\Users\thisi\Desktop\Machine Learning\game-strategy\2019data.csv')
 
